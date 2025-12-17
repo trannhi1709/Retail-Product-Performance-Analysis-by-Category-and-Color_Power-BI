@@ -9,7 +9,7 @@ You can download the full Power BI dashboard (.pbix) here:
 This Power BI project focuses on analyzing the sales performance and cost structure of products based on two key dimensions: Color and Category. Using the Adventure Works dataset, the report provides an in-depth overview of how different product categories contribute to total revenue and how product colors influence customer purchasing behavior.
 ### 2. Dataset Information
  - The ***Adventure Works dataset*** is a sample business dataset provided by Microsoft, representing the operations of Adventure Works Cycles, a global bicycle manufacturing and sales company. The dataset includes detailed information on products, customers, sales transactions, territories, and calendar, organized for the years 2016 and 2019.
- - Data resource: [*AdventureWorks*]()
+ - Data resource: [*AdventureWorks*](https://docs.google.com/spreadsheets/d/1ugbRwkuouG5fW0Av-C4VkvOqncEjeoBY/edit?gid=494881559#gid=494881559)
  - Data dictionary:
    
    | Field | Data type | Type of column |
@@ -43,7 +43,7 @@ This Power BI project focuses on analyzing the sales performance and cost struct
 ### 3. Data Model
 The data model for this project is built using the Adventure Works dataset, a well-structured sample database that simulates the operations of a global bicycle manufacturing company. The model follows a ***star-schema design***, separating transaction data into fact tables and descriptive attributes into dimension tables. This structure supports efficient querying, enables scalable analytics, and ensures clear relationships between sales, products, customers, calendar, and territory data. The goal of the data model is to provide a clean analytical foundation that supports ***accurate reporting***, ***DAX calculations***, and ***meaningful business insights***.
 
-<img width="817" height="511" alt="Image" src="https://github.com/user-attachments/assets/5a57a968-cf90-4dd4-b9ed-d23dea2f0f05" />
+<img width="817" height="511" alt="Image" src="https://github.com/user-attachments/assets/fc775c9b-7495-45a1-8674-334b34734278" />
 
 As you can see, there is one types of relationship in this Data Model: ***one-to-many***.
 
@@ -57,33 +57,33 @@ As you can see, there is one types of relationship in this Data Model: ***one-to
 ## II. Data Analysis and Visualization
 ### 1. Overview of Financial Indicators
 
-<img width="271" height="33" alt="Image" src="https://github.com/user-attachments/assets/a833d8df-f326-4188-ab82-69e39e7ed1ac" />
-<img width="300" height="33" alt="Image" src="https://github.com/user-attachments/assets/3e4a19fc-546e-43e8-97d6-0b6c629040e5" />
+<img width="271" height="33" alt="Image" src="https://github.com/user-attachments/assets/6114a30f-c943-43c4-b04b-5bb8efa6feda" />
+<img width="300" height="33" alt="Image" src="https://github.com/user-attachments/assets/1678b85b-9abe-43ef-aef2-47cf29774d95" />
 
-**<img width="387" height="106" alt="Image" src="https://github.com/user-attachments/assets/b00cffb8-42ca-4180-9ba8-cba92c1739c3" />**
+**<img width="387" height="106" alt="Image" src="https://github.com/user-attachments/assets/d636e4bf-f54b-49aa-bb51-e6c3b7c56890" />**
 
 - The total sales during the analysis period (July 2016 – June 2019) reached more than $29 million, with total costs exceeding $17 million.
 - The cost ratio is approximately 58.6%, indicating a healthy profit margin and an overall positive business performance.
 
 ### 2. Sales by Color
 
-<img width="239" height="250" alt="Image" src="https://github.com/user-attachments/assets/3891e214-bcd7-465e-95e9-f0b35416171b" />
+<img width="239" height="250" alt="Image" src="https://github.com/user-attachments/assets/40964c4e-cb30-44d5-92b4-df0d24566606" />
 
 - Black and Red are the top-performing colors, generating $8.8M and $7.7M respectively.
 - Colors such as White, Multi, and several others contribute insignificantly to total revenue.
 
 ### 3. Sales by Category
 
-<img width="347" height="253" alt="Image" src="https://github.com/user-attachments/assets/91c502f0-71dc-4dbb-b81e-5836c2606fc3" />
+<img width="347" height="253" alt="Image" src="https://github.com/user-attachments/assets/f9f4e2c4-cd72-4c2b-a8de-368a47cd181c" />
 
 - Bikes dominate the business, contributing 96.46% of total revenue.
 - Accessories and Clothing together account for less than 4%.
 
 ### 4. Sales, Costs, and Cost-to-Sales Ratio by Category
 
-<img width="411" height="34" alt="Image" src="https://github.com/user-attachments/assets/75873e48-1fb3-4407-a0a2-2ee48767d1ec" />
+<img width="411" height="34" alt="Image" src="https://github.com/user-attachments/assets/5f0811de-8b5d-4f35-86ef-a984ef3e8a8a" />
 
-**<img width="358" height="251" alt="Image" src="https://github.com/user-attachments/assets/dd5a3753-e553-4def-bcc2-cac36e9b77dc" />**
+**<img width="358" height="251" alt="Image" src="https://github.com/user-attachments/assets/47eb3d49-9944-4f82-9016-f5f6309d39f5" />**
 
 - Bikes have high sales with moderate costs → Good cost ratio (0.59).
 - Accessories and Clothing have low sales overall, but the cost-to-sales ratio differs significantly:
@@ -92,10 +92,10 @@ As you can see, there is one types of relationship in this Data Model: ***one-to
 
 ### 5. Growth of Sales and Showing Total Categories and Colors by Year
 
-<img width="469" height="67" alt="Image" src="https://github.com/user-attachments/assets/d61bc7ba-217b-40a4-b8aa-b1bc959f2beb" />
-<img width="556" height="34" alt="Image" src="https://github.com/user-attachments/assets/66a50cc2-aa70-4809-a105-8541e822342a" />
+<img width="469" height="67" alt="Image" src="https://github.com/user-attachments/assets/971e6af2-e9d2-42ff-988b-9051e6774e9c" />
+<img width="556" height="34" alt="Image" src="https://github.com/user-attachments/assets/7122043e-3a8d-46d3-a3fb-a226efcd5c19" />
 
-**<img width="603" height="210" alt="Image" src="https://github.com/user-attachments/assets/d68440e0-72d1-4f9b-9102-7d89e80c55c6" />**
+**<img width="603" height="210" alt="Image" src="https://github.com/user-attachments/assets/958837b2-96c2-4531-a47c-5cee2b183ce5" />**
 
 ***Sales and Growth % by Year and Month***
 - Mid-2016 to Early 2018:
@@ -116,17 +116,17 @@ As you can see, there is one types of relationship in this Data Model: ***one-to
 
 ### 6. The Profit_Rank Table by Category and Top 3 Highest-Revenue Subcategories
 
-<img width="324" height="33" alt="Image" src="https://github.com/user-attachments/assets/7efd8d70-cbc5-4684-a3eb-e8688b971d12" />
-<img width="457" height="33" alt="Image" src="https://github.com/user-attachments/assets/8c8fd536-46cd-48e2-a605-7d34113c1d3f" />
+<img width="324" height="33" alt="Image" src="https://github.com/user-attachments/assets/0b264497-9186-4dd4-8968-ed407c6345d2" />
+<img width="457" height="33" alt="Image" src="https://github.com/user-attachments/assets/a3e95633-22de-4446-9ba7-8b61a83c6af4" />
 
-**<img width="206" height="211" alt="Image" src="https://github.com/user-attachments/assets/07d6cc8d-a904-4e30-bd68-02528375b262" />**
+**<img width="206" height="211" alt="Image" src="https://github.com/user-attachments/assets/f0bc4d52-a8e1-443f-b407-91679eb7153a" />**
 
 - Bikes are clearly ranked first in profit contribution, other categories generate substantially lower sales: Accessories: ~40× lower than Bikes; Clothing: ~83× lower; Components: almost no sales at all.
 - In the Bikes category, subcategories such as: Road Bikes, Mountain Bikes, Touring Bikes all exceed the one-million-dollar mark, other subcategories produce very low sales.
 
 ### *Business Performance Dashboard*
 
-<img width="810" height="457" alt="Image" src="https://github.com/user-attachments/assets/3d54f1e6-0e8c-46a2-9a5d-deb27fd85823" />
+<img width="810" height="457" alt="Image" src="https://github.com/user-attachments/assets/217841ea-588d-4b3b-a39b-276dad861ab2" />
 
 ## III. Conclusion and Recommedations
 - Bikes are the core product line that contribute over 96% of total revenue. Therefore, the company may consider further expanding this category. Accessories and Clothing require product improvement, repositioning, or strategic reconsideration.
@@ -134,4 +134,3 @@ As you can see, there is one types of relationship in this Data Model: ***one-to
 - Clothing has a high cost-to-sales ratio while generating limited revenue → reconsider pricing, design, or cost structure.
 - The increasing variety of product colors through the years correlates with sales growth.
 - Consider expanding high-performing colors and optimizing inventory for low-performing ones.
-
